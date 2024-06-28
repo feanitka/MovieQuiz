@@ -114,6 +114,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="YP Black "/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U5A-Md-3MG" secondAttribute="trailing" constant="20" id="B6T-05-A4m"/>
                             <constraint firstItem="U5A-Md-3MG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BGe-FA-WY3"/>
