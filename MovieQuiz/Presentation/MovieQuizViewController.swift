@@ -85,7 +85,7 @@ final class MovieQuizViewController: UIViewController {
             self.showNextQuestionOrResults()
             self.imageView.layer.borderColor = UIColor.clear.cgColor
         }
-        // GGGGGG
+
         if isCorrect { // 1
                correctAnswers += 1 // 2
            }
@@ -95,9 +95,7 @@ final class MovieQuizViewController: UIViewController {
            imageView.layer.borderColor = isCorrect ? UIColor.ypGreen.cgColor : UIColor.ypRed.cgColor
            }
        }
-    //GGGGGG
-    
-    
+
     struct QuizQuestion {
         let image: String
         let text: String
